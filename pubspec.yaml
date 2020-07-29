@@ -16,7 +16,11 @@ dependencies:
   css_colors: ^1.0.2
 
   # Plugins for rendering the <video> tag.
-  video_player: ^0.10.10
+  video_player:
+    git:
+      url: git://github.com/do4Mother/flutter_plugins.git
+      path: packages/video_player/video_player
+      ref: fix-android-buffering
   chewie: ^0.9.10
 
   # Plugin for rendering the <iframe> tag.
